@@ -1,0 +1,102 @@
+.content{
+	width: 100%;
+	margin: 0 auto;
+}
+.content .rec_con ul{
+	margin: auto;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 0 1%;
+}
+.content .rec_con ul li.item{
+	float: left;
+    padding: 0;
+    width: 48%;
+    height: auto;
+    overflow: hidden;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+	-webkit-transition: all .45s ease-in-out;
+	   -moz-transition: all .45s ease-in-out;
+	    -ms-transition: all .45s ease-in-out;
+	     -o-transition: all .45s ease-in-out;
+	        transition: all .45s ease-in-out;
+}
+.content .rec_con ul li.bd-1{
+	border:solid 1px #98D3E8;
+}
+.content .rec_con ul li.bd-1:hover{
+	background: #98D3E8;
+}
+.content .rec_con ul li.bd-2{
+	border:solid 1px #FFCB76;
+}
+.content .rec_con ul li.bd-2:hover{
+	background: #FFCB76;
+}
+.content .rec_con ul li.bd-3{
+	border:solid 1px #FF525A;
+}
+.content .rec_con ul li.bd-3:hover{
+	background: #FF525A;
+}
+.content .rec_con ul li.bd-4{
+	border:solid 1px #71C46F;
+}
+.content .rec_con ul li.bd-4:hover{
+	background: #71C46F;
+}
+.content .rec_con ul li img{
+    width: 100%;
+    height: auto;
+    border: 0px solid #000;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-radius: 0.1rem;
+    display: block;
+}
+.content .rec_con ul li .a-index{
+	position: absolute;
+	width: 100%;
+	top: 5px;
+	left: 5px;
+	line-height: 20px;
+	text-align: center;
+	background: rgba(0,0,0,0.5);
+	color: #fff;
+}
+.content .rec_con ul li .a-index h2{
+	position: absolute;
+	z-index: 20;
+	top: 0; 
+	left: 0;
+	font-size: 2.0em;
+	line-height: 28px;
+	text-align: center;
+	text-shadow: 0 0px 2px rgba(255,255,255,0.7);
+	text-align: center;
+	margin-top: 0px;
+	width: 98%;
+	height: 200px;
+	margin-bottom: 0;
+	display: table;
+	padding: 0 1%;
+	letter-spacing: 2px;
+}
+.content .rec_con ul li .a-index h2.fc-1{
+	color:#98D3E8;
+}
+.content .rec_con ul li .a-index h2.fc-2{
+	color:#FFCB76;
+}
+.content .rec_con ul li .a-index h2.fc-3{
+	color:#FF525A;
+}
+.content .rec_con ul li .a-index h2.fc-4{
+	color:#71C46F;
+}
+.content .rec_con ul li .a-index h2 span{
+	display: table-cell;
+	vertical-align: middle;
+}
