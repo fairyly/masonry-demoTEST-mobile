@@ -1,0 +1,49 @@
+*{
+		margin: 0;
+		padding: 0;
+		font-family: "微软雅黑", "Lucida Grande", "Lucida Sans", Helvetica, Arial, Sans;
+	}
+	body{
+		background: #2d2d2d;
+		overflow-x: hidden;
+		font-size: 62.5%;
+	}
+	ul{
+		list-style: none;
+	}
+	.content{
+		width: 100%;
+		margin: 0 auto;
+		padding: 0 1%;
+	}
+	.content  ul{
+		margin: auto;
+	    width: 100%;
+	    height: auto;
+	    overflow: hidden;
+	}
+	.content ul li.item{
+		float: left;
+	    padding: 10px 5px;
+	    margin-bottom: 10px;
+	    width: 48%;
+	    height: auto;
+	    background: #fdfdfd none repeat scroll 0 0;
+	    overflow: hidden;
+	    box-sizing: border-box;
+	    -webkit-box-sizing: border-box;
+		-webkit-transition: all .25s ease-in-out;
+		   -moz-transition: all .25s ease-in-out;
+		    -ms-transition: all .25s ease-in-out;
+		     -o-transition: all .25s ease-in-out;
+		        transition: all .25s ease-in-out;
+	}
+	.content ul li img{
+	    width: 100%;
+	    height: auto;
+	    border: 0px solid #000;
+	    box-sizing: border-box;
+	    -webkit-box-sizing: border-box;
+	    border-radius: 0.1rem;
+	    display: block;
+	}
